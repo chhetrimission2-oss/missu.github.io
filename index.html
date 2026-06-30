@@ -1,15 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lonewolf King</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#111,#1b1b1b,#2a2a2a);
+color:white;
+text-align:center;
+}
+
+header{
+padding:80px 20px;
+}
+
+h1{
+font-size:60px;
+color:#FFD700;
+text-shadow:0 0 20px gold;
+}
+
+h2{
+margin-top:15px;
+font-size:28px;
+color:#ddd;
+}
+
+p{
+margin-top:20px;
+font-size:20px;
+line-height:1.6;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+color:#ccc;
+}
+
+.button{
+display:inline-block;
+margin-top:35px;
+padding:15px 35px;
+background:gold;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:40px;
+transition:.3s;
+}
+
+.button:hover{
+background:white;
+transform:scale(1.1);
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+padding:50px 20px;
+gap:25px;
+}
+
+.card{
+background:#222;
+width:280px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(255,215,0,.3);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+padding:30px;
+background:#111;
+margin-top:50px;
+color:#888;
+}
+</style>
+
 </head>
+
 <body>
 
-    <h1>Welcome to My Website!</h1>
+<header>
 
-    <p>I built this website using HTML.</p>
+<h1>🐺 Lonewolf King</h1>
 
-    <button>Click Me</button>
+<h2>Discipline • Coding • AI • Success</h2>
+
+<p>
+Welcome to my first website.
+I am learning HTML and building my own future one line of code at a time.
+</p>
+
+<a class="button" href="https://github.com">
+Visit My GitHub
+</a>
+
+</header>
+
+<section class="cards">
+
+<div class="card">
+<h3>💻 Coding</h3>
+<p>Learning HTML, CSS, JavaScript and Python.</p>
+</div>
+
+<div class="card">
+<h3>🤖 AI</h3>
+<p>My dream is to build my own AI and powerful websites.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Goals</h3>
+<p>Discipline every day. Grow stronger. Never quit.</p>
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Lonewolf King | Built with HTML
+
+</footer>
 
 </body>
 </html>
